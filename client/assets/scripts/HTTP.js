@@ -18,6 +18,7 @@ var HTTP = cc.Class({
                 }
                 str += k + "=" + data[k];
             }
+            console.log(extraUrl)
             if(extraUrl == null){
                 extraUrl = HTTP.url;
             }

@@ -9,10 +9,10 @@ var LOCAL_IP = 'localhost';
 
 exports.mysql = function(){
 	return {
-		HOST:'127.0.0.1',
+		HOST:'117.48.205.125',
 		USER:'root',
-		PSWD:'123456',//如果连接失败，请检查这里
-		DB:'db_scmj',//如果连接失败，请检查这里
+		PSWD:'wei123456',//如果连接失败，请检查这里
+		DB:'nodejs',//如果连接失败，请检查这里
 		PORT:3306,
 	}
 }
@@ -29,7 +29,7 @@ exports.account_server = function(){
 		DEALDER_API_IP:LOCAL_IP,
 		DEALDER_API_PORT:12581,
 		VERSION:'20161227',
-		APP_WEB:'http://fir.im/2f17',
+		APP_WEB:'http://www.baidu.com',  //获得游戏下载地址
 	};
 };
 

@@ -1,5 +1,5 @@
 var db = require('../utils/db');
-var configs = require(process.argv[2]);
+var configs = require('../configs_mac');
 
 //init db pool.
 db.init(configs.mysql());
